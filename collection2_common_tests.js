@@ -1,4 +1,4 @@
-// TESTING: to-do
+// TODO
 Tinytest.add('example', function (test) {
   test.equal(true, true);
 });

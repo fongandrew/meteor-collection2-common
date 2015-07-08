@@ -73,7 +73,8 @@ CommonFields = {};
   };
 
   // An update verifier that adds a new random number every time a field is
-  // updated -- useful
+  // updated -- useful for ensuring that we don't clobber something we don't
+  // intend to because of Mongo's lack of built-in transactions
   CommonFields.stateVerifier = function(attrs) {
     return _.extend({
       type: String,

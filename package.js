@@ -2,7 +2,7 @@ Package.describe({
   name: 'fongandrew:collection2-common',
   summary: 'Some simple reusable schema definitions for aldeed:collection2',
   version: '0.2.0',
-  git: '' // Not really publishable yet
+  git: 'https://github.com/fongandrew/meteor-collection2-common.git'
 });
 
 Package.onUse(function(api) {
